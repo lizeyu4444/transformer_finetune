@@ -1,0 +1,12 @@
+multilingual_sentiment_vocab20k
+logging
+runs
+wandb
+
+data/processed/cached*
+
+__pycache__
+.ipynb_checkpoints
+
+
+
