@@ -1,6 +1,6 @@
 # 利用huggingface transformer进行迁移学习
 
-通常情况下，对于个人或者小企业来说，缺乏训练集是一个令人头痛的问题。huggingceface开源了基于transformer的模型库，集成了众多架构，例如Bert、GPT、GPT-2、Transformer-XL等，并且能够让开发者上传分享模型。利用训练好的模型，进行迁移学习，能够大大提高训练效率和改善结果。本仓库利用了`multilingual_sentiment_vocab20k`模型进行finetune，如果需要预训练模型可以去[huggingface官网](https://huggingface.co/models)下载，下载好之后，参考scripts/中的notebook进行训练和预测。
+通常情况下，对于个人或者小企业来说，缺乏训练集是一个令人头痛的问题。huggingceface开源了基于transformer的模型库，集成了众多架构，例如Bert、GPT、GPT-2、Transformer-XL等，并且能够让开发者上传分享模型。利用训练好的模型，进行迁移学习，能够大大提高训练效率和改善结果。本仓库利用了`multilingual_sentiment_vocab20k`模型进行finetune新闻情感模型，如果需要预训练模型可以去[huggingface官网](https://huggingface.co/models)下载，下载好之后，参考下面的步骤进行训练和预测。
 
 ## 使用与安装
 
